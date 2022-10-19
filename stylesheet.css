@@ -1,0 +1,122 @@
+body {
+    background-color: #f1e0cf;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    background-position: center;
+    padding: 0;
+    height: 100;   
+}
+
+
+header {
+    text-align: center;
+    margin-top: 90px;
+    font-size: 50px;
+    color: brown;
+    font-family: 'cursive', 'Brush Script MT';
+}
+
+header img {
+    border-radius: 50%;
+    float: left;
+    margin-left: 50px;
+}
+
+header p {
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+.navbar a {
+    float: right;
+    display: block;
+    color: brown;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    background-color: lavender;
+}
+
+.navbar a:hover {
+    background-color: lavenderblush;
+    color: black;
+}
+
+.navbar a.active {
+    color: white;
+}
+
+.navbar .icon {
+    display: none;
+}
+
+footer {
+    text-align: right;
+    position: relative;
+  }
+
+
+footer img {
+    float: left;
+    height: 100px;
+    width: 100px;
+}
+
+  footer p {
+    font-size: 23px;
+    color: black;
+    text-align: center;
+    font-family: 'cursive', 'Brush Script MT';
+  }
+
+
+.gallery {
+    margin: 30px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+.gallery:hover {
+    border: 1px solid #777;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+.desc {
+    padding: 15px;
+    text-align: center;
+    background-color: lavenderblush;
+    
+}
+
+.image-container {
+    margin: 0 auto;
+    width: 50%;
+    margin-bottom: 20px;
+    background-color: silver;
+    border: 2px;
+    transition-duration: 1s;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+
+ .image-container img {
+    height: 500px;
+    margin-left: 150px;
+ }
+
+
+ .image-description {
+    padding: 0 15px 15px 15px;
+    text-align: center;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: bold;
+    font-size: 15px;
+    background-color: brown;
+ }
